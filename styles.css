@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* HOMEPAGE */
+
+.Header{
+     /* border: 1px solid black; */
+    width: 100%;
+}
+.Header hr{
+    width: 100%;
+    background-color: black;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.Logo{
+    /*border: 1px solid red;*/
+    position: absolute;
+    padding: 20px;
+    margin: 50px 500px 50px 575px;
+    background-color:burlywood;
+    /* width: 30%; */
+    display: flex;
+    justify-content: center;
+    top: 5%;
+    border-radius: 100px;
+}
+.Logo img:hover{
+    border-radius: 0;
+    transition: 0.9s;
+}
+.Logo img{
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    /* display: flex;
+    justify-content: center; */
+}
+.Logo h1{
+    position: absolute;
+    top: 13%;
+    margin-left: 3px;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 549;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    opacity: 85%;
+}
+
+
+.nav{
+    /*border: 2px solid black;*/
+    background-color: rgb(12, 12, 12); 
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 32%;
+    width: 100%;
+}
+.nav a{
+    border: 5px solid black;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 80px;
+    background-color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: large;
+    box-shadow: 2px 2px 2px 2px peru;
+}
+.nav:hover{
+    border: 2px solid black;
+    background-color:peru;
+    transition: 1s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px white;
+}
+.nav a:hover{
+    background-color:black;
+    color: white;
+    transition: 0.9s;
+    border-radius: 10px;
+}
+
+ .Content{
+    /* border: 5px solid blue;  */
+    background-color:burlywood;
+}
+.WelcomeText{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.WelcomeText h1{
+    font-weight: 100;
+    font-size: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.WelcomeText hr{
+    width: 33%;
+    margin-left: 455px;
+    background-color: black;
+    padding: 1px;
+}
+
+.WelcomeText h2{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hr2{
+    padding: 1px;
+    background-color: black;
+    margin: 10px;
+}
+.WelcomeText p{
+    /* border: 1px solid red; */
+    padding: 20px 200px; 
+}
+.Coffeepics{
+    display: flex;
+    justify-content: center;
+}
+.Coffeepics img{
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.BackgroundImg img{
+    filter: blur(3px);
+    
+}
+.CoffeeImages{
+    display: flex;
+    justify-content: center;
+}
+.CoffeeImages img{
+    /* border: 1px solid red; */
+    border-radius: 100px;
+    margin: 20px;
+}
+.CoffeeImages img:hover{
+    box-shadow: 5px 5px 5px 5px rgb(117, 117, 117);
+    transition: 0.9s;
+    border-radius: 0;
+    padding: 20px;
+}
+
+#hr1{
+    background-color: black;
+    padding: 1px;
+    width: 80%;
+    margin-left: 130px;
+}
+
+.footer{
+    /* border: 2px solid green; */
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    /* display: flex;
+    justify-content: center; */
+}
+.footerImg{
+    display: flex;
+    justify-content: center;
+    
+}
+#footerTitle{
+    display: flex;
+    justify-content: center;
+}
+#footerh2{
+    /* border: 1px solid darkgreen; */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+#footerh2 h2{
+    margin: 10px;
+    color: rgb(24, 24, 24);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+}
+#footerh3{
+    /* border: 1px solid darkblue; */
+    display: flex;
+    justify-content: center;
+}
+#footerh3 h3{
+    margin: 10px;
+    color: rgb(41, 41, 41);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 70;
+    font-size: small;
+}
+
+
+
+
+
+/* MENUPAGE */
+
+.MenuContent{
+    /* border: 6px solid rgb(139, 125, 0); */
+    background-color: burlywood;
+}
+.MENU{
+    /* border: 2px solid darkorchid; */
+}
+.MENU hr{
+    padding: 1px;
+    background-color: black;
+    margin: 20px;
+}
+.MENUText{
+    /* border: 2px solid red; */
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 770px;
+    padding: 30px;
+    text-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+.MENUText h1{
+    font-size: 100px;
+    font-weight: 100;
+}
+.MENUText p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.MENUList{
+    /* border: 10px solid rgb(255, 139, 44); */
+    position: absolute;
+    top: 980px;
+    /* border-style:ridge; */
+    margin: 5px;
+}
+.MENUList h1{
+    text-align: center;
+    color: rgb(236, 236, 236);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:100;
+    font-size: 50px;
+    text-shadow: 10px 5px 5px rgb(0, 0, 0);
+    letter-spacing: 5px;
+}
+
+.MENUList img{
+    margin: 10px;
+    border-radius: 20%;
+}
+.MENUList1{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.MENUList2{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+
+/* CONTACTPAGE */
+
+.ContactContent{
+    border: 3px solid rgb(21, 107, 0);
+    text-align: center;
+    padding: 20px;
+}
+.ContactText{
+    border: 1px solid red;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.NameInputs{
+    border: 3px solid rgb(0, 255, 128);
+    display: flex;
+    justify-content: center;
+}
+.FormInputs{
+    margin: 20px;
+}
+.FormInputs input{
+    border: 2px solid red;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
